@@ -1,5 +1,6 @@
 * {
   font-family: "Cairo", sans-serif;
+  font-size: 14px;
 }
 
 .bg-e {
@@ -42,5 +43,11 @@ main .owl-next {
   height: 100%;
   right: 0;
   top: 0%;
+}
+
+@media (max-width: 767px) {
+  * {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

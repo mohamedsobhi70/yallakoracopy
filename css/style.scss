@@ -1,5 +1,6 @@
 * {
   font-family: "Cairo", sans-serif;
+  font-size: 14px;
 }
 .bg-e{
   background: #eee;
@@ -32,4 +33,9 @@ main {
     right: 0;
     top: 0%;
   }
+}
+@media(max-width : 767px){
+ *{
+   font-size: 12px;
+ }
 }
