@@ -1,0 +1,46 @@
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.bg-e {
+  background: #eee;
+}
+
+.border-end,
+.border-start {
+  border-color: #444 !important;
+}
+
+main {
+  background: #eee;
+}
+
+main .owl-prev,
+main .owl-next {
+  background: rgba(71, 102, 241, 0.5);
+  color: white;
+  position: absolute;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 5px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .owl-prev {
+  height: 100%;
+  left: 0;
+  top: 0%;
+}
+
+main .owl-next {
+  height: 100%;
+  right: 0;
+  top: 0%;
+}
+/*# sourceMappingURL=style.css.map */
