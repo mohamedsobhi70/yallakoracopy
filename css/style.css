@@ -12,7 +12,18 @@
   border-color: #444 !important;
 }
 
+header .main-menu {
+  display: none;
+}
+
+header .main-menu.active {
+  display: block;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
 main {
+  margin-top: 44px;
   background: #eee;
 }
 

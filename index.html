@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--font awesome-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -26,13 +27,15 @@
 
 <body>
     <!-- start header  -->
-    <header class="bg-dark">
-        <div class="container-fluid">
+    <header class="fixed-top" style="background-color: #000;">
+        <div class="container-fluid position-relative">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="navigation">
                     <nav class="navbar navbar-expand-lg py-0">
                         <div class="bg-primary h-100 p-2">
-                            <a href=""><i class="fa fa-bars text-white  fa-2x"></i></a>
+                            <span role="button" style="transition: .5s;"><i
+                                    class="fa fa-bars text-white fa-2x"></i></span>
+
                         </div>
                         <a class="navbar-brand" href="#"><img src="images/ykLogo.png" width="150px"
                                 alt="yallakora logo"></a>
@@ -53,6 +56,7 @@
                             </div>
                         </div>
                     </nav>
+
                 </div>
                 <div class="social d-none  d-md-flex align-items-center">
                     <a href="#" class="text-white border-start px-2 text-decoration-none ">
@@ -69,6 +73,98 @@
                     </a>
                     <i class="text-white px-2 fa fa-search fa-lg"></i>
 
+                </div>
+
+            </div>
+            <div class="bg-dark position-absolute w-100 main-menu text-white-50"
+                style="top: 100%; right:0; z-index:1000; height: 92vh; ">
+                <div class="container-fluid h-100">
+                    <div class="row h-100">
+                        <div class=" col-4 col-md-2">
+                            <ul class="list-unstyled p-0">
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">المباريات</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">الأخبار</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">دوريات وبطولات</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">مالتيميديا</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">نجوم الفانتازى</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">رياضات اخري</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">اخر الإنتقالات</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">المحترفون</a></li>
+                                <li class="p-3 border-bottom border-secondary"><a
+                                        class="text-white-50 text-decoration-none" href="">كأس العرب</a></li>
+                                <li class="p-3 "><a class="text-white-50 text-decoration-none" href="">مسابقة
+                                        التوقعات</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=" col-8 col-md-10" style="background-color: #222;">
+                            <div class="row">
+                                <div class="col-md-3 col-6 py-3">
+                                    <h5 class="fw-bold mb-4 text-white">قاريه</h5>
+                                    <ul class="list-unstyled small p-0">
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">دورى أبطال أوربا</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الأوروبى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">تصفيات كأس العالم</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس الأمم الأفريقية</a>
+                                        </li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">دورى المؤتمر الأوروبى</a>
+                                        </li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس السوبر الإفريقى</a>
+                                        </li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">دورى أبطال أفريقيا</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الكونفيدرالية الإفريقية</a>
+                                        </li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">دوورى أبطال آسيا</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-6 py-3">
+                                    <h5 class="fw-bold mb-4 text-white">محلية</h5>
+                                    <ul class="list-unstyled small p-0">
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى المصرى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس مصر</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-6 py-3">
+                                    <h5 class="fw-bold mb-4 text-white">أوروبية</h5>
+                                    <ul class="list-unstyled small p-0">
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الإنجليزى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس السوبر الإسبانى</a>
+                                        </li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الإيطالى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى التركى </a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الأسبانى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الفرنسى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الالمانى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى البرتغالى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس السوبر الإيطالى</a>
+                                        </li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس المانيا</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس كاراباو</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-6 py-3">
+                                    <h5 class="fw-bold mb-4 text-white">عربية</h5>
+                                    <ul class="list-unstyled small p-0">
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">كأس العرب</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى السعودى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى التونسى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى المغربى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى القطرى</a></li>
+                                        <li class="py-md-2"><a class="text-whi text-decoration-none text-secondary" href="#">الدورى الإماراتى</a></li>
+                
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1042,7 +1138,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mortada.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <h5 class="p-2 mb-0  position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">شاهد .. مرتضى منصور يركب قطر 6 الا تلت</h5>
 
@@ -1054,7 +1151,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1064,19 +1162,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
-                                            <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
-                                                style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-2">
-                                    <div class="p-1 shadow">
-                                        <div class="position-relative new-img">
-                                            <img src="images/mancity.jpg" alt="" class="img-fluid">
-                                            <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1088,7 +1175,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1100,7 +1188,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1112,7 +1201,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1124,7 +1214,8 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1136,7 +1227,21 @@
                                         <div class="position-relative new-img">
                                             <img src="images/mancity.jpg" alt="" class="img-fluid">
                                             <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
-                                                style="top: 0; right: 0;"><i class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
+                                            <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
+                                                style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-2">
+                                    <div class="p-1 shadow">
+                                        <div class="position-relative new-img">
+                                            <img src="images/mancity.jpg" alt="" class="img-fluid">
+                                            <h6 class="fw-bold bg-dark ps-2 small text-white position-absolute"
+                                                style="top: 0; right: 0;"><i
+                                                    class="fa h-100 fa-play bg-danger ms-2 p-2"></i>فيديو</h6>
                                             <p class="p-1 mb-0 small position-absolute bg-dark text-white w-100"
                                                 style="bottom: 0;">هدف مانشستر سيتي ف غزل المحلة</p>
 
@@ -1156,7 +1261,7 @@
     </main>
     <!-- end  main page content  -->
     <!-- start footer  -->
-    <footer class="bg-dark pt-5 text-white">
+    <footer class="pt-5 text-white"  style="background-color: #000;">
         <div class="container">
             <h4 class="fw-bold">
                 دوربات وبطولات

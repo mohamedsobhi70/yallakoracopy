@@ -19,10 +19,16 @@ $(".owl-carousel").owlCarousel({
   },
 });
 document.querySelectorAll("main .owl-prev").forEach((el) => {
-    el.innerHTML =`<i class="fa fa-chevron-left"></i>`;
-  });
-  
-  document.querySelectorAll("main .owl-next").forEach((el) => {
-    el.innerHTML = `<i class="fa fa-chevron-right"></i>`;
-  });
-  
+  el.innerHTML = `<i class="fa fa-chevron-left"></i>`;
+});
+
+document.querySelectorAll("main .owl-next").forEach((el) => {
+  el.innerHTML = `<i class="fa fa-chevron-right"></i>`;
+});
+
+// mainmenu
+let bars = document.querySelector("i.fa-bars");
+console.log(bars);
+bars.addEventListener("click", function () {
+  document.querySelector(".main-menu").classList.toggle("active");
+});
